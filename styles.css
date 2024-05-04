@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 800px;
+    height: 800px;
+    border: 2px solid wheat;
+}
+.block {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin: 20px;
+}
+.block--blue {
+
+  background-color: blue;
+}
+.block--orange {
+
+  background-color: orange;
+}
+.block--pink {
+
+  background-color: pink;
+}
+.block--purple {
+
+  background-color: purple;
+}
